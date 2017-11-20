@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Sandbox | Coin Miner</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Coinhive Miner Sandbox">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- SIMPLE MINER UI -->
+<style>
+body {
+  background: #282c33;
+  color: #eee;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.miner-gui {
+  width: 100%;
+  height: 240px;
+  margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #eee;
+  text-align: center;
+
+}
+</style>
+</head>
+<body>
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+<h1>COIN MINER</h1>
+<script>
+var onCoinHiveSimpleUIReady = function() {
+  CoinHive.Miner.on('authed', function(params) {
+  console.log('Simple UI has authed with the pool');
+  });
+  CoinHive.Miner.on('job', function(params) {
+  console.log('New job received from pool');
+  });
+  }
+</script>
+<div class="wrapper">
+  <div data-key="dN8c2kQfS7qv8Enjbly07raZNL0JqgAu"
+    class="coinhive-miner miner-gui"
+    data-autostart="true"
+    data-whitelabel="false"
+    data-background="#111111"
+    data-text="#eeeeee"
+    data-action="#00ff00"
+    data-graph="#555555"
+    data-throttle="0.1"
+    data-threads="4" >
+  <em>Loading...</em>
+  </div>
+</div>
+</body>
+<footer></footer>
