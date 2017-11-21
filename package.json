@@ -1,0 +1,22 @@
+{
+  "name": "coinhive-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox playground for mining Monero Coins in browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjharris2407/coinhive-sandbox.git"
+  },
+  "keywords": [
+    "coinhive"
+  ],
+  "author": "Matt Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjharris2407/coinhive-sandbox/issues"
+  },
+  "homepage": "https://github.com/mjharris2407/coinhive-sandbox#readme"
+}
