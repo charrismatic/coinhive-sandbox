@@ -36,4 +36,4 @@ php -S localhost:8000 -t .
 
 _*Disclosure:_
 
-I've provided a public key linked with my accound for testing purposes. Feel free to create your own or use mine if you do not feel like signing up for an account. But don't be confused, it takes much more than a single machine testing these scripts in a browser to generate even a few pennies worth of XMR, so you shouldn't worry about me personally profiting from anyone simply spinning up any of these scripts and visting the site. 
+I've provided a public key linked with my accound for testing purposes. Feel free to create your own or use mine if you do not feel like signing up for an account. 
